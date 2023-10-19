@@ -13,9 +13,15 @@ const Hero = () => {
           type="image/jpeg"
           srcSet="/images/hero-img.jpg 1x, /images/hero-img@2x.jpg 2x, /images/hero-img@3x.jpg 3x"
         />
-        <HeroImage alt="" src="/images/hero-img.jpg" />
+        <HeroImage
+          alt="A lovley kitten staring at you - An exampele image below the website header"
+          src="/images/hero-img.jpg"
+        />
       </picture>
-      <Swoop src="/swoop.svg" />
+      <Swoop
+        alt="A swoop pattern for decorative purpose"
+        src="/swoop.svg"
+      />
     </Wrapper>
   );
 };
